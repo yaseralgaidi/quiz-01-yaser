@@ -1,11 +1,7 @@
-fun main (){
-
-    val x = toDouble(2,4)
-    val y = toDouble(2,4)
-    val xy = add(2,4,2,4)
-    val b = "$xy"
-    toString2(b)
-    println(b)
-
-    println(xy)
-    println("hfh")
+fun main() {
+    val double = RationalNumber(3, 8)
+    val rationalNumberOne = RationalNumber(1, 9)
+    val rationalNumberTwo = RationalNumber(5, 2)
+    println(toDouble(double))
+    println(add(rationalNumberOne, rationalNumberTwo))
+}

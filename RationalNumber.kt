@@ -1,5 +1,5 @@
-class RationalNumber( val Numerator: Int ,val Denominator: Int ) {
+class RationalNumber(val numerator: Int, val denominator: Int) {
     override fun toString(): String {
-        return super.toString()
+        return("$numerator/$denominator")
     }
 }
